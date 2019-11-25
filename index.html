@@ -68,12 +68,7 @@
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
     
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script> 
-    <script> 
-    $(function(){
-      $("#DivContent").load("about.html"); 
-    });
-    </script> 
-
+   
   
   <link rel="alternate" href="http://stevenputtemans.github.io/index.xml" type="application/rss+xml" title="Personal Website">
   <link rel="feed" href="http://stevenputtemans.github.io/index.xml" type="application/rss+xml" title="Personal Website">
@@ -237,8 +232,26 @@
 <span id="homepage" style="display: none"></span>
 
 
+   <script> 
+    $(function(){
+      $("#about").load("about.html"); 
+	   $("#publications").load("publications.html"); 
+	    $("#teaching").load("teaching.html"); 
+		 $("#contact").load("contact.html"); 
+		 $("#footer").load("footer.html"); 
+		 $("#modal").load("modal.html"); 
+    });
+    </script> 
+
+ <div id="about"></div>
+ 
+  <div id="publications"></div>
   
- <div id="DivContent"></div>
+  <div id="teaching"></div>
+  
+  <div id="contact"></div>
+  <div id="footer"></div>
+  <div id="modal"></div>
 
 
 
