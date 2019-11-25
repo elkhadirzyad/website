@@ -245,7 +245,7 @@ include 'contact.html';
 
 include 'footer.html';
 
-include 'modal.html';
+
 
 ?>
   
